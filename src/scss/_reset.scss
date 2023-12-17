@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $primary-ff;
+    font-size: $root-fs;
+    background-color: $light-grayish-blue;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}

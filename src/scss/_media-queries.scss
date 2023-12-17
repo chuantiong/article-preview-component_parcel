@@ -1,0 +1,46 @@
+@media (min-width: 600px) {
+    .article-component {
+        flex-direction: row;
+
+        &__contents-container {
+            padding: 2rem 2.5rem 1.25rem;
+        }
+
+        &__title {
+            font-size: $fs-20px;
+            line-height: 1.75rem;
+            letter-spacing: 0.01563rem;
+            margin-bottom: .6em;
+        }
+
+        &__image-wrapper {
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 0.625rem;
+
+            .image {
+                height: auto;
+                object-position: left;
+            }
+        }
+
+        &__infos-container.share-mobile--light {
+            padding: 0 2.5rem 2rem;
+        }
+
+        // Hide 
+
+        &__infos-container {
+            &.mobile--light {
+                display: none;
+            }
+
+            &.desktop--light {
+                display: flex;
+            }
+
+            &.mobile--dark {
+                display: none;
+            }
+        }
+    }
+}
