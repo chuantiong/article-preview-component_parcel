@@ -4,8 +4,8 @@
   "description": "![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
